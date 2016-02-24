@@ -8,7 +8,7 @@ body {
     background: url(https://jefflynchdev.files.wordpress.com/2010/07/the_skies_of_texas_large.jpg) no-repeat center center fixed; 
     background-repeat: no-repeat;
     padding: 0;
- 
+
 }
 img {
 	border: 10px solid #FB8C5A;
@@ -46,7 +46,8 @@ div {
 	width: 40%;
 	border: 2px solid #ddd;
 	margin: 5%;
-	background-color: #E0DBD8;
+	background-color: rgba(224, 219, 216, .7);
+
 	
 }
 
