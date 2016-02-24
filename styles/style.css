@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+
+}
+
+body {
+	font-size: 20px;
+    background: url(https://jefflynchdev.files.wordpress.com/2010/07/the_skies_of_texas_large.jpg) no-repeat center center fixed; 
+    background-repeat: no-repeat;
+    padding: 0;
+ 
+}
+img {
+	border: 10px solid #FB8C5A;
+	margin: 10px;
+	opacity: 1
+}
+
+p{
+	margin:0;
+}
+
+div {
+	display: inline-block;
+	margin: 0;}
+
+#headline{
+	display: block;
+    width: 100%;
+    text-align: center;
+    background: #E0DBD8;
+    opacity:.7;
+    margin:0;
+}
+}
+#listLength {
+
+}
+#container {
+	width:100%;
+}
+.legislatorContainer {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	width: 40%;
+	border: 2px solid #ddd;
+	margin: 5%;
+	background-color: #E0DBD8;
+	
+}
+
+.legislatorName{
+    font-family: cursive;
+    font-size: xx-large;
+
+}
+.legislatorParty{
+    margin-top: 18px;
+    font-weight: bold;
+}
+}
+.legislatorEmail{
+	margin-top: 10px;
+	max-width:15ch;
+}
+.legislatorUrl{
+
+}
+@media screen and (max-width: 850px) {
+.legislatorContainer{display:block;
+	width:100%;
+	padding-right: 20px}
+
+}
